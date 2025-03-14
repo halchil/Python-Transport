@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 # info.csv から情報を読み込む
-info_path = "info.csv"
+info_path = "Python-Transport/info.csv"
 print(f"デバッグ: info.csv のパス {info_path}")
 info_df = pd.read_csv(info_path, header=None)
 print("デバッグ: info.csv の内容\n", info_df)
